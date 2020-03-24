@@ -27,6 +27,7 @@ foreach (var facet in r.FacetFields["category"]) {
   Console.WriteLine("{0}: {1}", facet.Key, facet.Value);
 }
 ```
+This is a Test Branch
 
 ### Date facets
 Date facet queries create facets from date ranges. Sample code:
