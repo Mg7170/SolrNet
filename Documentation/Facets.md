@@ -1,7 +1,5 @@
 # Faceting
 
-This is a change I want to commit
-
 SolrNet supports [faceted searching](http://wiki.apache.org/solr/SolrFacetingOverview).
 
 There are basically three kinds of facet queries:
@@ -29,7 +27,7 @@ foreach (var facet in r.FacetFields["category"]) {
   Console.WriteLine("{0}: {1}", facet.Key, facet.Value);
 }
 ```
-This is a Test Branch with an amend
+This is a Test Branch
 
 ### Date facets
 Date facet queries create facets from date ranges. Sample code:
